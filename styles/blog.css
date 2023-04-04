@@ -1,0 +1,13 @@
+.my_category li {
+    list-style: none !important;
+    float: right !important;
+    margin: 10px 5px;
+}
+.btn:not(:disabled):not(.disabled) {
+    cursor: pointer;
+}
+.btn-f-info {
+    background: #008fa0 !important;
+    border-color: #008fa0;
+    color: #fff !important;
+}

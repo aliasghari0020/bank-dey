@@ -1,0 +1,134 @@
+header {
+    width: 100%;
+}
+
+.logo__header {
+    padding: 37px 0 38px 0 !important;
+    max-width: 370px !important;
+}
+
+.logo__header img {
+    width: auto;
+}
+
+.menu__header {
+    position: relative;
+    display: block;
+    background: #008fa0;
+    padding: 11px 0;
+    padding-right: 30px;
+    border-top-right-radius: 10px;
+    z-index: 1;
+}
+
+.menu__header::before {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: -440px;
+    background: #008fa0;
+    content: "";
+    z-index: -1;
+    border-top-right-radius: 10px;
+}
+.about-box__header {
+    display: flex;
+    padding: 19px 0;
+}
+
+.about-box__header .icon {
+    width: 50px;
+    height: 50px;
+    margin-left: 20px;
+
+}
+
+
+.about-box__header .title {
+    font-size: 15px;
+    line-height: 24px;
+    font-weight: 500;
+    margin: 2px 0 0;
+    color: #777777;
+}
+
+.about-box__header .icon i {
+    font-size: 50px;
+    color: #008fa0;
+}
+.box-icons__header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 !important;
+
+
+}
+.box-icons__header a{
+    color: #fff;
+    font-size: 16px;
+    transition: all 0.4s ;
+}
+
+.menu-list__header {
+    display: flex;
+    color: #fff !important;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0 !important;
+    margin: 0 !important;
+    height: 100%;
+}
+
+.menu-list__header a {
+    color: #fff !important;
+    position: relative;
+    font-size: 14px;
+    line-height: 30px;
+    font-weight: 600;
+    margin-left: 40px;
+}
+/* hover */
+.box-icons__header a:hover{
+    font-size: 18px;
+}
+
+
+@media only screen and (max-width: 1199px){
+
+    .menu-list__header a{
+        margin-left: 30px;
+        font-size: 14px;
+
+    }
+    .logo__header{
+        text-align: center ;
+        padding: 15px 0 !important;
+        width: 100%;
+        max-width: 100% !important;
+    }
+}
+
+@media only screen and (max-width: 991px){
+    .menu-list__header a{
+        margin-left: 30px;
+        font-size: 14px;
+
+    }
+    .logo__header{
+        text-align: right;
+    }
+}
+
+@media only screen and (max-width:767px){
+    .about-box__header , .box-icons__header  {
+        display: none;
+    }
+    .menu-list__header a{
+        margin-left: 12px;
+        font-size: 12px;
+
+    }
+}
+

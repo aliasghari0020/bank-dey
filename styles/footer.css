@@ -1,0 +1,335 @@
+.slogan-area {
+    position: relative;
+    display: block;
+    margin-bottom: -75px;
+    z-index: 10;
+}
+
+.slogan-content {
+    background: url("../img/slogan-content-bg.jpg");
+    position: relative;
+    padding: 20px 50px 20px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    -webkit-box-shadow: 0px -3px 13px 2px rgb(0 0 0 / 6%);
+    box-shadow: 0px -3px 13px 2px rgb(0 0 0 / 6%);
+}
+
+.slogan-content .right {
+    position: relative;
+    display: block;
+}
+
+.slogan-content .right .icon,
+.slogan-content .right .title {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.slogan-content .right .icon {
+    width: 110px;
+    font-size: 80px;
+    line-height: 80px;
+
+}
+
+.slogan-content .right .title h3 {
+    color: #031f4b;
+    font-size: 22px;
+    line-height: 32px;
+    font-weight: 700;
+}
+
+.slogan-content .right .title p {
+    color: #777;
+    margin-bottom: 1rem !important;
+}
+
+.partner-area {
+    position: relative;
+    display: block;
+    background-color: #7e7e8050;
+}
+
+.single-testimonial-style2 {
+    position: relative;
+    display: block;
+    padding-top: 79px;
+}
+
+.partner-area .swiper-two {
+    height: 160px;
+    width: 90%;
+    padding: 0 40px !important;
+}
+
+.partner-area .swiper-slide {
+    padding: 0;
+}
+
+.single-testimonial-style2 img {
+    width: inherit !important;
+    margin: 0 auto;
+}
+
+/* footer */
+.footer-area {
+    position: relative;
+    display: block;
+    z-index: 1;
+}
+
+.footer-area:before {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    content: "";
+    background-color: #0f1828;
+    z-index: -1;
+}
+
+.footer-area .layer-outer {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: auto;
+    opacity: 1;
+    z-index: -1;
+}
+
+.footer {
+    position: relative;
+    display: block;
+    padding: 55px 0 25px;
+}
+
+.single-footer-widget {
+    position: relative;
+    display: block;
+    overflow: hidden;
+}
+
+.single-footer-widget .our-company-info .footer-logo {
+    position: relative;
+    display: block;
+    padding-bottom: 27px;
+}
+
+.single-footer-widget .our-company-info .footer-logo a {
+    display: inline-block;
+}
+
+.single-footer-widget .our-company-info .text {
+    position: relative;
+    display: block;
+    padding-bottom: 20px;
+}
+
+.footer-social-links {
+    position: relative;
+    display: block;
+}
+
+.footer-social-links ul {
+    overflow: hidden;
+}
+
+.footer-social-links ul li {
+    position: relative;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.footer-social-links ul li {
+    position: relative;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.footer-social-links ul li a {
+    position: relative;
+    display: block;
+    height: 40px;
+    width: 40px;
+    border: 1px solid #ffffff;
+    border-radius: 7px;
+    color: #ffffff;
+    font-size: 14px;
+    line-height: 38px;
+    text-align: center;
+    transition: all 200ms linear;
+    transition-delay: 0.1s;
+}
+
+.text p {
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 400;
+    margin: 0;
+}
+
+.single-footer-widget.martop10 {
+    margin-top: 10px;
+}
+
+
+
+.single-footer-widget .title:before {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 50px;
+    height: 2px;
+    background-color: #008fa0;
+    content: "";
+}
+
+.single-footer-widget .title {
+    position: relative;
+    display: block;
+    margin-top: -6px;
+    margin-bottom: 25px;
+    padding-bottom: 15px;
+}
+
+.single-footer-widget .title h3 {
+    color: #ffffff;
+    font-size: 24px;
+    line-height: 40px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.single-footer-widget .footer-contact-info {
+    position: relative;
+    display: block;
+    margin-top: -1px;
+}
+
+.single-footer-widget .footer-contact-info ul {
+    position: relative;
+    display: block;
+    overflow: hidden;
+}
+
+.single-footer-widget .footer-contact-info ul li {
+    margin-bottom: 5px !important;
+}
+
+.single-footer-widget .footer-contact-info ul li .icon,
+.single-footer-widget .footer-contact-info ul li .text {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.single-footer-widget .footer-contact-info ul li .icon {
+    width: 35px;
+   
+}
+.single-footer-widget .footer-contact-info ul li .icon i{
+    font-size: 35px;
+    line-height: 50px;
+}
+.single-footer-widget .footer-contact-info ul li .text {
+    padding-right: 20px;
+}
+.single-footer-widget .footer-contact-info ul li .text p {
+    color: #ffffff;
+    line-height: 20px;
+    margin: 9px 0 0;
+}
+.single-footer-widget .countries-links li a:before {
+    position: absolute;
+    content: "\f100";
+    font-family: FontAwesome;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    font-size: 16px;
+    color: #ffffff;
+}
+.single-footer-widget .countries-links {
+    position: relative;
+    display: block;
+    margin-top: -11px;
+}
+.single-footer-widget .countries-links {
+    position: relative;
+    display: block;
+    margin-top: -11px;
+}
+.single-footer-widget .countries-links li {
+    position: relative;
+    display: block;
+    line-height: 36px;
+}
+.single-footer-widget .countries-links li a {
+    position: relative;
+    display: inline-block;
+    padding-right: 20px;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+    transition: all 200ms linear;
+    transition-delay: 0.1s;
+}
+.single-footer-widget .countries-links li a:hover {
+    color: #008fa0;
+}
+.scroll-top.style2 {
+    position: absolute;
+    right: 0;
+    top: -20px;
+    left: 0;
+    width: 40px;
+    height: 40px;
+    margin: 0 auto;
+    border-radius: 5px;
+    background-color: #008fa0;
+    border: none;
+    text-align: center;
+    animation: auto;
+    transition: all 200ms linear;
+    transition-delay: 0.1s;
+    font-size: 20px;
+    line-height: 40px;
+    font-weight: 400;
+}
+.fa-angle-up:before {
+    content: "\f106";
+    color: #fff;
+}
+@media only screen and (max-width: 767px){
+    .slogan-content .right {
+        text-align: center;
+    }
+    .right .icon {
+        width: auto !important;
+        margin: 0 0 12px !important;
+    }
+    p {
+        font-size: 13px;
+        line-height: 22px;
+    }
+    .right .title h3 {
+        font-size: 19px;
+    }
+    .footer-bottom{
+        display: none;
+    }
+}

@@ -1,0 +1,174 @@
+.blog-single-area {
+    padding-bottom: 185px;
+}
+
+.blog-area {
+    position: relative;
+    display: block;
+    background: #ffffff;
+    padding: 100px 0 185px;
+}
+
+.blog-single-area .blog-post {
+    position: relative;
+    display: block;
+}
+
+.blog-single-area .single-blog-style1.style1instyle3 {
+    margin-bottom: 0px;
+}
+
+.blog-single-area .single-blog-style1.style1instyle3 .text-holder {
+    padding: 35px 0 24px;
+    border-bottom: none;
+}
+
+.text-holder {
+    min-height: 166px;
+}
+
+.single-blog-style1.style1instyle3 .text-holder h3 {
+    font-size: 22px;
+    line-height: 40px;
+    margin: 18px 0 0px;
+    color: #031f4b;
+}
+
+.single-blog-style1.style1instyle3 .text-holder .text {
+    position: relative;
+    display: block;
+    padding-top: 12px;
+
+}
+
+.text-holder .text p {
+    color: #777;
+}
+
+.text p img {
+    max-width: 100%;
+    height: auto;
+    transition-delay: .1s;
+    transition-timing-function: ease-in-out;
+    transition-duration: .7s;
+    transition-property: all;
+}
+
+.single-blog-style1 .img-holder .inner img {
+    width: 100%;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
+
+.sidebar-wrapper {
+    position: relative;
+    display: block;
+    max-width: 370px;
+    width: 100%;
+}
+
+.sidebar-wrapper .single-sidebar {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    margin-bottom: 60px;
+}
+
+.single-sidebar .categories-box {
+    position: relative;
+    display: block;
+}
+
+.single-sidebar .categories {
+    position: relative;
+    display: block;
+    overflow: hidden;
+}
+
+.single-sidebar .categories li {
+    position: relative;
+    display: block;
+}
+
+.single-sidebar .categories li a {
+    position: relative;
+    display: block;
+    border-bottom: 1px solid #dddddd;
+    color: #888888;
+    font-size: 16px;
+    line-height: 60px;
+    font-weight: 400;
+    -webkit-transition: all 0.4s linear;
+    -o-transition: all 0.4s linear;
+    transition: all 0.4s linear;
+}
+
+.single-sidebar .recent-posts {
+    position: relative;
+    display: block;
+}
+
+.single-sidebar .recent-posts li {
+    position: relative;
+    display: block;
+    min-height: 90px;
+    padding-right: 90px;
+    margin-bottom: 30px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #dddddd;
+}
+
+.single-sidebar .recent-posts li .img-box {
+    position: absolute;
+    top: 0;
+    right: 0;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.single-sidebar .recent-posts li .img-box img {
+    width: 100%;
+}
+
+.single-sidebar .recent-posts li .title-box {
+    position: relative;
+    display: block;
+    padding-right: 20px;
+    min-height: 90px;
+}
+
+.single-sidebar .recent-posts li .title-box h4 {
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 700;
+    margin: 0 0 9px;
+}
+
+.single-sidebar .recent-posts li .title-box h4 a {
+    color: #031f4b;
+    transition: all 200ms linear;
+    transition-delay: 0.1s;
+
+}
+
+.single-sidebar .recent-posts li .title-box .date {
+    color: #777777;
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 400;
+    text-transform: capitalize;
+    margin: 0;
+}
+
+.single-sidebar .popular-tag {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    margin-right: -5px;
+    margin-left: -5px;
+}
+
+.single-sidebar .categories li a:hover,
+.single-sidebar .recent-posts li .title-box h4 a:hover {
+    color: #008fa0;
+}

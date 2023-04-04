@@ -1,0 +1,111 @@
+.swiper {
+  width: 100%;
+  height: 700px;
+  --swiper-navigation-size: 44px;
+  --swiper-navigation-top-offset: 50%;
+  --swiper-navigation-sides-offset: 40px;
+  --swiper-navigation-color: #fff;
+
+}
+
+.zIndex {
+  z-index: -9999 !important;
+}
+
+.swiper-slide {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 241px 0px 250px;
+  overflow: hidden;
+}
+
+.cover-slider {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  top: 0;
+}
+
+.content-slider {
+  max-width: 1200px;
+  padding: 0px 15px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.content-slider h3 {
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 30px;
+  font-weight: 600;
+  text-transform: uppercase;
+  text-decoration: none;
+  opacity: 0;
+  transform: translateY(80px);
+  transition: all .4s ease-in-out .1s;
+  text-align: center;
+}
+
+.content-slider h2 {
+  position: relative;
+  color: #ffffff;
+  font-size: 35px;
+  line-height: 1.3em;
+  font-weight: 600;
+  margin-top: 28px;
+  margin-bottom: 55px;
+  opacity: 0;
+  transform: translateY(80px);
+  transition: all .8s ease-in-out .1s;
+  text-align: center;
+
+}
+
+.content-slider a {
+  position: relative;
+  display: inline-block;
+  padding: 0 20px;
+  background-color: #008fa0;
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 50px;
+  font-weight: 600;
+  text-transform: capitalize;
+  border-radius: 8px;
+  transition: all 1s linear;
+  opacity: 0;
+  transform: translateY(80px);
+}
+
+.swiper-slide-active a,
+.swiper-slide-active h2,
+.swiper-slide-active h3 {
+
+
+
+  transform: translateY(0);
+  opacity: 1;
+  transition: all 0.4s linear;
+
+
+}
+
+@media only screen and (max-width:767px) {
+  .swiper{
+    --swiper-navigation-size: 30px;
+    --swiper-navigation-top-offset: 50%;
+    --swiper-navigation-sides-offset: 10px;
+    --swiper-navigation-color: #fff;
+  }
+  .content-slider h2 {
+    padding: 0 10px;
+    font-size: 25px;
+  }
+
+
+}

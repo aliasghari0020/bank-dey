@@ -1,0 +1,76 @@
+.vertical-tab {
+    display: table;
+}
+
+.vertical-tab .nav-tabs {
+    display: table-cell;
+    width: 20%;
+    min-width: 20%;
+    padding: 10px 6px;
+    border-radius: 25px;
+    background-color: rgb(228 228 228 / 90%);
+    vertical-align: top;
+    position: relative;
+    z-index: 1;
+}
+
+.nav-tabs {
+    border-bottom: 1px solid #dee2e6;
+}
+
+.vertical-tab .tab-content {
+    color: #555;
+    background-color: transparent;
+    font-size: 15px;
+    padding: 5px 15px;
+    display: table-cell;
+    position: relative;
+}
+
+.vertical-tab .nav-tabs li {
+    float: none;
+    vertical-align: top;
+}
+
+.nav>li {
+    position: relative;
+    display: block;
+}
+
+.nav-tabs li {
+
+    background-color: transparent;
+    font-size: 17px;
+    font-weight: 600;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 10px 0;
+
+    border: none;
+    position: relative !important;
+    transition: all 0.20s ease 0s !important;
+}
+
+.nav-tabs li button {
+    color: #999;
+    border-radius: 50px;
+    border: none;
+    padding: 10px ;
+    background-color: transparent;
+    margin: 0 0 10px 0;
+}
+
+.vertical-tab .nav-tabs li button:hover,
+.vertical-tab .nav-tabs li.active button,
+.vertical-tab .nav-tabs li.active button:hover {
+    color: #fff;
+    background: #008fa0;
+    border: none;
+
+}
+.vertical-tab .tab-content h3 {
+    color: #008fa0;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin: 0 0 5px 0;
+}

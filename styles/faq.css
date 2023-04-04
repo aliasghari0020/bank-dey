@@ -1,0 +1,80 @@
+.faq-content-box {
+    position: relative;
+    display: block;
+    padding-top: 5px;
+}
+.accordion-box {
+    position: relative;
+    display: block;
+}
+.accordion-box .accordion {
+    position: relative;
+    display: block;
+    background: #ffffff;
+    border: 1px solid #ebebeb;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.accordion-box .accordion .accord-btn {
+    position: relative;
+    display: block;
+    cursor: pointer;
+    padding-right: 25px;
+    padding-left: 60px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    transition: all 500ms ease;
+}
+.accordion-box .accordion .accord-btn h4 {
+    color: #031f4b;
+    font-size: 17px;
+    line-height: 26px;
+    font-weight: 500;
+    transition: all 500ms ease;
+}
+.accordion-box .accordion .accord-btn::after {
+    font-family: FontAwesome;
+    position: absolute;
+    content: "\f067";
+    top: 50%;
+    left: 25px;
+    color: #008fa0;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 600;
+    text-align: center;
+    transform: translateY(-50%);
+    transition: all 500ms ease 0s;
+}
+.accordion-box .accordion.active .accord-btn:after {
+    font-family: FontAwesome;
+    color: #031f4b;
+    content: "\f068";
+}
+.accordion-box .accordion.active .accord-btn h4 {
+    color: #008fa0;
+}
+
+.accordion-box .accordion .accord-content {
+    display: none;
+}
+.accordion-box .accordion.active .accord-content {
+    display: block;
+    padding-right: 35px;
+    padding-left: 35px;
+    padding-bottom: 19px;
+}
+.my_acc_list {
+    margin-bottom: 18px !important;
+}
+.my_acc_list  li {
+    list-style-type: initial;
+    color: #777777;
+}
+.accordion-box .accordion .accord-content p {
+    color: #5c5757;
+    font-size: 15px;
+    line-height: 30px;
+    font-weight: 400;
+    margin: 0;
+}

@@ -1,0 +1,132 @@
+.registration-cart {
+    position: relative;
+    display: block;
+    margin: -100px 0 -170px 0;
+    z-index: 10;
+}
+
+.single-featured-box {
+    position: relative;
+    display: block;
+    padding: 25px 0 50px;
+    margin-bottom: 50px;
+}
+
+.single-featured-box .inner-box {
+    position: relative;
+    display: block;
+    background: #7e7e80;
+    padding: 54px 30px 30px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.single-featured-box h3 {
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 600;
+    margin: 10px 0 23px;
+}
+
+.single-featured-box h3 a {
+    color: #ffffff;
+}
+
+.single-featured-box .border-box {
+    position: relative;
+    display: block;
+    width: 40px;
+    height: 2px;
+    background: #008fa0;
+    margin: 0 auto;
+}
+
+.single-featured-box .border-box:before {
+    position: absolute;
+    content: "";
+    top: -5px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 12px;
+    height: 12px;
+    background: #ffffff;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+.single-featured-box .text {
+    position: relative;
+    display: block;
+    padding: 22px 0 10px;
+}
+
+.single-featured-box .text p {
+    color: #ffffff;
+    margin: 0;
+}
+
+.btn-one {
+    position: relative;
+    display: inline-block;
+    padding: 0 20px;
+    background-color: #008fa0;
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 50px;
+    font-weight: 600;
+    text-transform: capitalize;
+    border-radius: 8px;
+    -webkit-transition: all 0.4s linear;
+    -o-transition: all 0.4s linear;
+    transition: all 0.4s linear;
+}
+
+.single-featured-box .icon-holder {
+    position: absolute;
+    right: 0;
+    top: -20px;
+    left: 0;
+    width: 95px;
+    height: 95px;
+    margin: 0 auto;
+    background: #008fa0;
+    border-radius: 50%;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.single-featured-box .icon-holder:before {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border: 2px dashed #ffffff;
+    content: "";
+    z-index: -1;
+    border-radius: 50%;
+}
+
+.icon {
+    font-family: 'iconfont' !important;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.single-featured-box.bg2 .inner-box {
+    background: #008fa0;
+}
+
+.single-featured-box.bg2 .border-box,
+.my_btn_two,
+.single-featured-box.bg2 .icon-holder {
+    background: #7e7e80;
+}

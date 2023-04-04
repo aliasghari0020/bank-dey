@@ -1,0 +1,39 @@
+.sticky__header {
+    width: 100%;
+    background: #0f1828;
+    margin-top: 100px;
+    position: fixed;
+    top: -100px;
+    right: 0;
+    visibility: hidden;
+    z-index: 0;
+    opacity: 0;
+    transition: all 1s ease;
+}
+
+.fixed-navbar .sticky__header {
+    opacity: 1;
+    z-index: 999;
+    visibility: visible;
+    transition: all 1s ease;
+}
+
+.logo-sticky__header {
+    padding: 12px 0 9px;
+}
+
+.sticky__header a {
+    font-weight: 600;
+    letter-spacing: 0;
+    font-size: 14px;
+}
+
+
+
+
+@media only screen and (max-width: 1199px) {
+    .sticky__header {
+        display: none;
+    }
+
+}
