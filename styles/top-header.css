@@ -86,8 +86,14 @@ header {
     position: relative;
     font-size: 14px;
     line-height: 30px;
-    font-weight: 600;
+    font-weight: 600 !important;
     margin-left: 40px;
+}
+.title p {
+    font-size: 15px;
+    line-height: 24px;
+    font-weight: 700 !important;
+    margin: 2px 0 0;
 }
 /* hover */
 .box-icons__header a:hover{

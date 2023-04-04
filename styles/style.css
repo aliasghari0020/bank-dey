@@ -1,6 +1,59 @@
+@font-face {
+    font-family: "iransans";
+    src: url("../font/eot/IRANSansWeb-400.eot") format("eot"),
+        url("../font/ttf/IRANSansWeb-400.ttf") format('ttf'),
+        url('../font/woff/IRANSansWeb-400.woff') format("woff"),
+        url("../font/woff2/IRANSansWeb-400.woff2") format("woff2")
+    ;
+    font-weight: 400;
+ }
+ @font-face {
+    font-family: "iransans";
+    src: url("../font/eot/IRANSansWeb-500.eot") format("eot"),
+        url("../font/ttf/IRANSansWeb-500.ttf") format('ttf'),
+        url('../font/woff/IRANSansWeb-500.woff') format("woff"),
+        url("../font/woff2/IRANSansWeb-500.woff2") format("woff2")
+    ;
+    font-weight: 500;
+ }
+ @font-face {
+    font-family: "iransans";
+    src: url("../font/eot/IRANSansWeb-600.eot") format("eot"),
+        url("../font/ttf/IRANSansWeb-600.ttf") format('ttf'),
+        url('../font/woff/IRANSansWeb-600.woff') format("woff"),
+        url("../font/woff2/IRANSansWeb-600.woff2") format("woff2")
+    ;
+    font-weight: 600;
+ }
+ @font-face {
+    font-family: "iransans";
+    src: url("../font/eot/IRANSansWeb-700.eot") format("eot"),
+        url("../font/ttf/IRANSansWeb-700.ttf") format('ttf'),
+        url('../font/woff/IRANSansWeb-700.woff') format("woff"),
+        url("../font/woff2/IRANSansWeb-700.woff2") format("woff2")
+    ;
+    font-weight: 700;
+ }
 
 
-
+ @font-face {
+    font-family: "iransans";
+    src: url("../font/eot/IRANSansWeb-800.eot") format("eot"),
+        url("../font/ttf/IRANSansWeb-800.ttf") format('ttf'),
+        url('../font/woff/IRANSansWeb-800.woff') format("woff"),
+        url("../font/woff2/IRANSansWeb-800.woff2") format("woff2")
+    ;
+    font-weight: 800;
+ }
+ @font-face {
+    font-family: "iransans";
+    src: url("../font/eot/IRANSansWeb-900.eot") format("eot"),
+        url("../font/ttf/IRANSansWeb-900.ttf") format('ttf'),
+        url('../font/woff/IRANSansWeb-900.woff') format("woff"),
+        url("../font/woff2/IRANSansWeb-900.woff2") format("woff2")
+    ;
+    font-weight: 900;
+ }
 
 
 * {
@@ -30,6 +83,7 @@ body {
     font-size: 16px;
     line-height: 30px;
     font-weight: 400;
+    font-family: "iransans" !important;
 }
 
 .space{
@@ -39,7 +93,7 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
     color: #031f4b;
-    font-weight: 700;
+    font-weight: 700 !important;
     margin: 0;
 }
 .text-right {
