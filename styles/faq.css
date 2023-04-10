@@ -68,7 +68,7 @@
     margin-bottom: 18px !important;
 }
 .my_acc_list  li {
-    list-style-type: initial;
+    list-style-type: none;
     color: #777777;
 }
 .accordion-box .accordion .accord-content p {
