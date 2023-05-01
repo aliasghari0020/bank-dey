@@ -106,7 +106,7 @@
 .none {
     display: none;
 }
-form{
+form.seacrh-bar__header{
     display: flex;
     border-radius: 20px;
     width: 0;

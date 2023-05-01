@@ -1,0 +1,56 @@
+.modal-content {
+    margin: auto;
+    border: 1px solid #888;
+    position: relative !important;
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+    -ms-flex-direction: column !important;
+    flex-direction: column !important;
+    width: 100% !important;
+    height: auto;
+    pointer-events: auto !important;
+    background-color: #fff !important;
+    background-clip: padding-box !important;
+    border: 1px solid rgba(0, 0, 0, 0.2) !important;
+    border-radius: 0.5rem !important;
+    outline: 0 !important;
+}
+#exampleModalCenter .modal-header {
+    background-color: #008fa0 !important;
+    color: #fff !important;
+    padding: 0.5rem 1rem;
+}
+.modal-body {
+    padding: 25px 25px !important;
+}
+#exampleModalCenter .modal-header h4 {
+    color: #fff !important;
+    line-height: 2.5;
+}
+.modal-header .close {
+    color: #fff;
+    border: none;
+    background-color: transparent;
+    opacity: 1;
+    font-size: 25px;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+}
+#exampleModalCenter .modal-header .close i {
+    padding: inherit;
+    margin: inherit;
+    color: #fff !important;
+    opacity: 1;
+}
+.panel {
+    border: 1px solid #fff;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0px 0px 3px #ccc;
+    margin-bottom: 100px;
+    padding: 10px;
+}

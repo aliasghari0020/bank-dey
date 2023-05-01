@@ -8,7 +8,7 @@ const swiper = new Swiper('.swiper-one', {
   navigation: {
     nextEl: '.swiper-button-next',
     prevEl: '.swiper-button-prev',
-    
+
 
   },
 });
@@ -21,7 +21,7 @@ const swiperTwo = new Swiper('.swiper-two', {
     delay: 1000,
   },
   breakpoints: {
-    1200:{
+    1200: {
       slidesPerView: 6,
       spaceBetween: 30
     },
@@ -41,3 +41,5 @@ const swiperTwo = new Swiper('.swiper-two', {
   }
 
 });
+
+
